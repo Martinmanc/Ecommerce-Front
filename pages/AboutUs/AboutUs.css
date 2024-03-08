@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: roboto;
+    background-color: rgb(31, 31, 31);
+}
+
+:root{
+    --primary-color: rgb(78, 78, 78);
+    --secondary-color:rgb(41, 41, 41) ;
+    --card-color: rgb(19, 19, 19);
+}
+
+.main-acercade{
+    background-color: var(--secondary-color);
+    color: white;
+    height: auto;
+    padding: 80px 120px;
+    margin: 90px 250px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    position: relative;
+    font-size: 18px;
+    font-weight: 100;
+    min-width: 600px;
+}
+
+.tarjeta{
+    position: relative;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    padding: 50px;
+    height: auto;
+    width: 500px;
+    margin-left: 300px;
+    margin-top: -50px;
+    margin-bottom: 100px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.titulo-tarjeta, .titulo2-tarjeta{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.titulo2-tarjeta{
+    margin-top: 10px;
+}
+
+.ul-tarjeta{
+    list-style-type: none;
+}
+
+.a-tarjeta{
+    color: white;
+    text-decoration: none;
+}
+
+.a-tarjeta:hover{
+    color: rgb(131, 131, 131);
+}
+
+.main-footer{
+    margin-top: 350px;
+}
+
+p{
+    margin-bottom: 8px;
+}
+
+@media screen and (width < 768px){
+
+    .main-acercade{
+        margin: 50px 0px 20px; 
+        padding: 40px;
+        padding-top: 80px;
+        border-radius: 0px;
+        position: static;
+    }
+
+    .tarjeta{
+        margin: 0px;
+        width: 100%;
+        background-color: var(--secondary-color);
+        border-radius: 0px;
+        position: static;
+        margin-bottom: 50px;
+    }
+
+
+    .main-footer{
+        margin-top: 50px;
+    }
+}

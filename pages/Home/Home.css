@@ -1,0 +1,29 @@
+.products{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-categoy{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.playstation{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px white solid;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 800px){
+    .div-categoy {
+        flex-wrap: wrap; 
+        justify-content: center; 
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

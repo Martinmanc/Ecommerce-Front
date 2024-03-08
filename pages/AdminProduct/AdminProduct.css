@@ -1,0 +1,56 @@
+
+.admin {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.principal{
+    max-width: 500px;
+    margin: 50px 0px 50px 30px;
+    position: sticky;
+}
+
+.secundario{
+    margin-right: 30px;
+    max-width: 1000px;
+}
+
+.admin-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 55px;
+}
+
+.admin-label{
+    color: white;
+}
+
+.admin-input{
+    border-radius: 4px;
+    width: 320px;
+}
+
+input[type= "checkbox"] {
+    height: 20px;
+    margin-left: -80px;
+    margin-top: -22px;
+}
+
+select{
+    height: 40px;
+}
+
+textarea{
+    outline: none;
+    resize: none;
+    width: 320px;
+    height: 100px;
+}
+
+#button-form-product{
+    width: 320px;
+    height: 40px;
+    font-size: 20px;
+}

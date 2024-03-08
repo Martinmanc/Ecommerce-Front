@@ -1,0 +1,93 @@
+
+.main-section{
+    display: flex;
+}
+
+.div-contacto{
+    width: 50%;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-contacto{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.input-contact, .textarea-contact{
+    max-width: 400px;
+    min-width: 400px;
+}
+
+.div-input{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 90px;
+}
+
+.label-contact{
+    color: rgb(117, 117, 117);
+}
+
+.boton{
+    max-width: 400px;
+    min-width: 400px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 6px;
+    transition: transform 0.1s;
+    border: none;
+    cursor: pointer;
+}
+
+.boton:hover{
+    transform: translateY(1px);
+}
+
+.div-mapa{
+    width: 50%;
+    height: 400px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.mapa{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@media screen and (width < 768px){
+
+    .main-section{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .div-contacto{
+        height: 50%;
+        width: 100%;
+    }
+
+    .div-input{
+        padding: 10px;
+    }
+
+    .div-mapa{
+        padding: 30px 10px 50px;
+        height: 50%;
+        width: 100%;
+    }
+
+    .mapa{
+        height: 500px;
+        border-radius: 0px;
+    }
+}

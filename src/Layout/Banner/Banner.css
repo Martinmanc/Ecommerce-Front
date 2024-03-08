@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.banner-container{
+    background-color: rgb(46, 46, 46);  
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    .banner-text{
+        margin: 0px 80px 10px 80px;
+        font-size: 20px;
+    }
+}
+
+
+
+.banner-img{
+    object-fit: cover;
+    max-height: 700px;
+    margin: 10px 80px 40px 80px;
+    border-radius: 10px;
+    border: 1px solid white;
+}

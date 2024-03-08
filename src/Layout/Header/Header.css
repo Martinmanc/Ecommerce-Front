@@ -1,0 +1,76 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    position: fixed;
+    width: 100%git;
+    top: 0;
+}
+
+#icono-joy, #icono-carro, #icono-user, #burger{
+    padding: 1rem;
+    color: black;
+}
+
+.burger-menu, .input-check{
+    display: none;
+}
+
+.header-2 {
+    display: flex;
+    padding: 0.5rem;
+}
+
+.header-2 .nav-link {
+    padding: 0.8rem;
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+        background-color: rgb(117, 117, 117);
+        border-radius: 4px;
+        color: black;
+    }
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: -1;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -10px 0 -10px rgb(0, 0, 0.1);
+    flex-direction: column;
+    padding: 30px;
+    padding-top: 100px;
+    display: none;
+    .nav-link{
+        color: black;
+        margin-bottom: 30px;
+        font-size: 17px;
+        &:hover{
+            background-color: rgb(117, 117, 117);
+            color: black;
+            border-radius: 3px;
+            padding: 10px;
+            margin-bottom: 20px;
+            margin-top: -10px;
+            margin-left: -10px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+
+    #icono-joy, .header-2{
+        display: none;
+    }
+
+    .burger-menu{
+        display: block;
+    }
+}

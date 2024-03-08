@@ -1,0 +1,121 @@
+.admin {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    justify-content: space-around;
+}
+
+.h2-tittle{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-x{
+    width: 30px;
+    font-size: 25px;
+}
+
+h2{
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+    font-weight: 100;
+}
+
+.principal{
+    max-width: 500px;
+    margin: 50px 0px 50px 30px;
+    position: sticky;
+}
+
+.secundario{
+    margin-right: 30px;
+    overflow-x: scroll;
+}
+
+.admin-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 55px;
+}
+
+.admin-label{
+    color: white;
+}
+
+.admin-input{
+    border-radius: 4px;
+    width: 320px;
+}
+
+input[type= "checkbox"] {
+    height: 20px;
+    margin-left: -80px;
+    margin-top: -22px;
+}
+
+select{
+    height: 40px;
+}
+
+textarea{
+    outline: none;
+    resize: none;
+    width: 320px;
+    height: 100px;
+}
+
+.image-input{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    max-width: 320px;
+    border: none;
+    color: black;
+}
+
+#button-form-user{
+    width: 320px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: -80px;
+}
+
+.botones-pag{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.button-page{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin: 2px;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .admin{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secundario{
+        padding: 30px;
+    }
+
+    .principal{
+        margin-left: 80px;
+    }
+
+    .h2-tittle{
+        margin-right: 35px;
+    }
+}

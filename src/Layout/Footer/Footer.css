@@ -1,0 +1,45 @@
+footer{
+    background-color: black;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.nav-link, .a-link{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover{
+    color: rgb(117, 117, 117);
+}
+
+.seccion2{
+    padding: 0px 70px 0px 70px;
+    max-width: 400px;
+    text-align: center;
+}
+
+#logo-footer{
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        height: 100%;
+    }
+
+    .seccion1{
+        padding: 10px 0px 40px 0px;
+    }
+
+    .seccion3{
+        display: none;
+    }
+}

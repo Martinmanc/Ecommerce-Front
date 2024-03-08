@@ -1,0 +1,8 @@
+
+#table-description {
+    max-width: 300px;
+    max-height: 200px;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+}
